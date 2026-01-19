@@ -10,3 +10,116 @@
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
 }
+
+/* share styles start */
+.primary_btn {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #ffffff;
+    padding: 12px 16px;
+    border-radius: 1000px;
+    background: linear-gradient(45deg, #F7E93F, #FB09B4, #9100F8);
+    border: none;
+    cursor: pointer;
+}
+
+.secondry_btn {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #00FF88;
+    padding: 12px 20px;
+    border: 1px solid #00FF88;
+    background-color: transparent;
+    border-radius: 1000px;
+    cursor: pointer;
+}
+/* share styles end */
+
+/* header related styles start */
+header {
+    background-color: #1A0B2E;
+}
+
+header .navbar {
+    width: 75%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 24px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo img {
+    width: 100%;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 2rem;
+}
+
+.navbar ul li {
+    list-style: none;
+}
+
+.navbar ul a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+
+}
+
+.header_hr {
+    opacity: 0.1;
+}
+/* header related styles end */
+/* banner related styles start */
+#banner {
+    background-image: url("../assets/hero-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    padding: 101px 0;
+}
+
+#banner .banner_container {
+    position: relative;
+    border: 2px solid tomato;
+    max-width: 550px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.banner_container .banner_img img {
+    margin-bottom: 40px;
+}
+
+.banner_container .banner_content h1 {
+    font-size: 3.75rem;
+    font-weight: 800;
+    color: #ffffff;
+    margin-bottom: 8px;
+}
+
+.banner_container .banner_content p {
+    color: #ffffff;
+    margin-bottom: 24px;
+}
+
+.banner_container .new_badge {
+    background-color: #00FF88;
+    font-size: 1.12rem;
+    font-weight: 600;
+    padding: 8px 16px;
+    border-radius: 1000px;
+    position: absolute;
+    top: 12px;
+    right: 123px;
+    cursor: pointer;
+}
+
+
+
+/* banner related styles end */
