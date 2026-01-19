@@ -15,7 +15,7 @@
 .primary_btn {
     font-size: 1rem;
     font-weight: 600;
-    color: #ffffff;
+    color: #FFFFFF;
     padding: 12px 16px;
     border-radius: 1000px;
     background: linear-gradient(45deg, #F7E93F, #FB09B4, #9100F8);
@@ -67,11 +67,11 @@ header .navbar {
     text-decoration: none;
     font-size: 16px;
     font-weight: 500;
-    color: #ffffff;
+    color: #FFFFFF;
 
 }
 
-.header_hr {
+.header_hr, .about_hr {
     opacity: 0.1;
 }
 /* header related styles end */
@@ -86,7 +86,6 @@ header .navbar {
 
 #banner .banner_container {
     position: relative;
-    border: 2px solid tomato;
     max-width: 550px;
     margin: 0 auto;
     text-align: center;
@@ -99,12 +98,12 @@ header .navbar {
 .banner_container .banner_content h1 {
     font-size: 3.75rem;
     font-weight: 800;
-    color: #ffffff;
+    color: #FFFFFF;
     margin-bottom: 8px;
 }
 
 .banner_container .banner_content p {
-    color: #ffffff;
+    color: #FFFFFF;
     margin-bottom: 24px;
 }
 
@@ -119,7 +118,182 @@ header .navbar {
     right: 123px;
     cursor: pointer;
 }
-
-
-
 /* banner related styles end */
+/* about related styles start */
+#about {
+    background-color: #1A0B2E;
+}
+
+#about .about_container {
+    width: 75%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px 0 120px 0;
+}
+
+.about_container .about_content {
+    padding: 0 230px;
+}
+
+.about_container .about_content h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: 1rem;
+}
+
+.about_container .about_content .text_one {
+    color: #FFFFFF;
+    margin-bottom: 3rem;
+    line-height: 28px;
+}
+
+.about_container .about_content .text_two {
+    color: #FFFFFF;
+    margin-bottom: 5rem;
+}
+
+.about_container .about_number {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.about_number .about_card h3 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #00FF88;
+    margin-bottom: 1rem;
+}
+
+.about_number .about_card p {
+    color: #FFFFFF;
+}
+/* about related styles end */
+/* choose related styles start */
+#choose {
+    padding: 120px 0;
+    background-color: #230E3D;
+}
+
+#choose .section_heading {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+#choose .choose_container {
+    width: 75%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#choose .choose_container .card_one {
+    grid-row: span 2;
+    padding: 107px 40px;
+}
+
+.choose_container .card_two {
+    grid-column: span 2;
+}
+
+.choose_container .card_three {
+    grid-column: span 2;
+}
+
+.choose_container .card_four {
+    grid-column: span 2;
+}
+
+.choose_container .choose_card {
+    background-color: rgba(53, 17, 101, 0.4);
+    border-radius: 2.5rem;
+    padding: 40px;
+}
+
+.choose_container .choose_card img {
+    margin-bottom: 1rem;
+}
+
+.choose_container .choose_card h4 {
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: 1rem;
+}
+
+.choose_container .choose_card p {
+    color: #FFFFFF;
+    line-height: 24px;
+}
+/* choose related styles end */
+/* feature related styles start */
+#feature {
+    background-color: #1A0B2E;
+    padding: 120px 0;
+}
+
+#feature .feature_heading {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+#feature .feature_container {
+    width: 75%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.feature_container .feature_card {
+    background-color: #250D44;
+    border-radius: 24px;
+    max-width: 380px;
+}
+
+.feature_card .feature_video iframe{
+    border-radius: 24px 24px 0 0;
+}
+
+.feature_card .feature_content {
+    padding: 24px;
+}
+
+.feature_container .feature_card h4 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 12px;
+    color: #FFFFFF;
+}
+
+.feature_container .feature_card p {
+    margin-bottom: 12px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.feature_card .card_clock {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.feature_card .card_clock span {
+    font-size: 16px;
+    font-weight: 600;
+    color: #00FF88;
+}
+
+
+/* feature related styles end */
