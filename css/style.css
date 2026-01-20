@@ -21,6 +21,19 @@
     background: linear-gradient(45deg, #F7E93F, #FB09B4, #9100F8);
     border: none;
     cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.primary_btn .fa-solid {
+    transition: all 0.3s ease;
+}
+
+.primary_btn:hover .fa-solid {
+    transform: translateX(6px);
+}
+
+.primary_btn:hover {
+    transform: scale(1.08);
 }
 
 .secondry_btn {
@@ -215,6 +228,11 @@ header .navbar {
     background-color: rgba(53, 17, 101, 0.4);
     border-radius: 2.5rem;
     padding: 40px;
+    transition: all 0.3s ease;
+}
+
+.choose_container .choose_card:hover {
+    box-shadow: 0 20px 50px rgba(145, 0, 248, 0.45);
 }
 
 .choose_container .choose_card img {
@@ -322,8 +340,6 @@ header .navbar {
     border-radius: 40px;
 }
 
-.meet_container .meet_image img {}
-
 .meet_container .meet_content h3 {
     font-size: 2rem;
     font-weight: 700;
@@ -363,7 +379,8 @@ footer .footer_container {
     width: 75%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 120px 0;
+    padding-top: 135px;
+    padding-bottom: 105px;
     text-align: center;
 }
 
