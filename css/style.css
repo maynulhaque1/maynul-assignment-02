@@ -33,7 +33,7 @@
 }
 
 .primary_btn:hover {
-    transform: scale(1.08);
+    transform: scale(1.06);
 }
 
 .secondry_btn {
@@ -90,22 +90,29 @@ header .navbar {
 /* header related styles end */
 /* banner related styles start */
 #banner {
-    background-image: url("../assets/hero-bg.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    padding: 101px 0;
+    background-image: url("../assets/hero-circle.png"), url("../assets/hero-bg.png");
+    background-repeat: no-repeat, no-repeat;
+    background-position: center 23%, center center;
+    background-size: 350px, cover;
+    padding: 101px;
 }
 
 #banner .banner_container {
-    position: relative;
     max-width: 550px;
     margin: 0 auto;
     text-align: center;
+    position: relative;
 }
 
 .banner_container .banner_img img {
-    margin-bottom: 40px;
+    margin-top: 70px;
+    margin-bottom: 121px;
+}
+
+.banner_content .icon_image_gap {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
 }
 
 .banner_container .banner_content h1 {
@@ -131,6 +138,7 @@ header .navbar {
     right: 123px;
     cursor: pointer;
 }
+
 /* banner related styles end */
 /* about related styles start */
 #about {
@@ -410,6 +418,4 @@ footer .footer_container {
     line-height: 24px;
     color: #FAFAFA;
 }
-
-
 /* footer related styles end */       
