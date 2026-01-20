@@ -441,12 +441,12 @@ footer .footer_container {
 
     /* banner */
     #banner {
-    background-position: center 33%, center center;
-    background-size: 200px, contain;
-    padding: 0;
-}
+        background-position: center 33%, center center;
+        background-size: 200px, contain;
+        padding: 0;
+    }
 
-#banner .banner_container {
+    #banner .banner_container {
         padding: 0 0 40px 0;
     }
 
@@ -510,7 +510,7 @@ footer .footer_container {
     }
 
     #choose .choose_container .card_one {
-        padding: 40px;
+        padding: 40px 40px;
     }
 
     /* -------feature-------- */
@@ -529,7 +529,7 @@ footer .footer_container {
     }
 
     .feature_container .feature_card {
-        max-width: 450px;
+        max-width: 400px;
     }
 
     /* -------meet ----------- */
@@ -575,5 +575,11 @@ footer .footer_container {
 /* media query start */
 /* large device */
 @media screen and (min-width: 992px) {
-    
+    #choose .choose_container {
+        padding: 0 20px;
+    }
+
+    #feature .feature_container {
+        padding: 0 20px;
+    }
 }
