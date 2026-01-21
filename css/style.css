@@ -235,6 +235,10 @@ header .navbar {
     grid-column: span 2;
 }
 
+.choose_container .card_five {
+    grid-column: auto;
+}
+
 .choose_container .choose_card {
     background-color: rgba(53, 17, 101, 0.4);
     border-radius: 2.5rem;
@@ -492,7 +496,7 @@ footer .footer_container {
     .about_container .about_number {
         margin-top: 40px;
         display: grid;
-        grid-template-columns: auto auto;
+        grid-template-columns: repeat(2, 1fr);
         gap: 40px;
     }
 
@@ -507,6 +511,16 @@ footer .footer_container {
 
     #choose .choose_container {
         grid-template-columns: 1fr;
+        padding: 20px;
+    }
+
+    .choose_container .card_one,
+    .choose_container .card_two,
+    .choose_container .card_three,
+    .choose_container .card_four,
+    .choose_container .card_five {
+        grid-column: auto;
+        grid-row: auto;
     }
 
     #choose .choose_container .card_one {
